@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Lato&family=Lexend+Tera&display=swap"
+        rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/d71e3987f2.js" crossorigin="anonymous"></script>
+    <title>Figma Design</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav>
+            <div class="row myrow align-items-baseline justify-content-between ">
+                <div class="col-3 col-xl-2 none-1 dis"><img src="./Images/Header/Name.png" alt=""
+                        style="margin-left: 10px;"></div>
+                <div class="col-1 col-xl-3 none0 none-2"><img src="./Images/Header/Logo.png" alt=""></div>
+                <div class="col-10 col-xl-6 none-2">
+                    <div class="row text-center">
+                        <div class="col txt" onclick="home()">Home</div>
+                        <div class="col txt active" onclick="services()">Services</div>
+                        <div class="col txt" onclick="Contact()">Contact Us</div>
+                        <div class="col txt">Help</div>
+                        <div class="col txt">Blogs</div>
+                    </div>
+                </div>
+                <div class="col-xl-3 none-1">
+                    <button type="button" class="mybtn2 btn btn" onclick="openTab">Sign Up</button>
+                    <button type="button" class="mybtn1 btn btn">Log In</button>
+                </div>
+                <div class="col-1 none myicon">
+                    <a href="#"><i class="fa-solid fa-user-large fa-lg " style="color: #007E85;"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="Background mt-5">
+        <img src="./Images/Header/Background img.png" alt="" height="100%" width="100%">
+        <div class="back-text">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-5">
+                    <div style="font-size: 58px; font-weight: 800; color: white;">Meet the Best Hospital</div>
+                    <div style="font-size: 20px; font-weight: 400; color: white;">We know how large objects will act,
+                        but things on a small scale.</div>
+                    <br>
+                    <button class="mybtn5">Get Quote Now</button>
+                    <button class="mybtn6">Learn More</button>
+                </div>
+                <div class="col-4" style="background-color: white; padding: 30px; border-radius: 5px;">
+                    <h2 style="font-size: 30px; margin-bottom: 50px; font-weight: 900; text-align: center;">Book
+                        Appointment</h2>
+                    <div>
+                        <p class="int-txt-2">Name *</p>
+                        <input class="myinput" type="text" placeholder="Full name">
+                    </div>
+                    <br>
+                    <div>
+                        <p class="int-txt-2">Email Address *</p>
+                        <input class="myinput" type="text" placeholder="example@gmail.com">
+                    </div>
+                    <br>
+                    <div>
+                        <p class="int-txt-2">Department *</p>
+                        <select class="mydrop" name="" id="">
+                            <option value="">Please Select</option>
+                            <option value="">Please Select</option>
+                            <option value="">Please Select</option>
+                            <option value="">Please Select</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <p class="int-txt-2">Time *</p>
+                        <select class="mydrop" name="" id="">
+                            <option value="">4:00 Available</option>
+                            <option value="">5:00 Available</option>
+                            <option value="">6:00 Available</option>
+                            <option value="">7:00 Available</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="mysearch">
+            <h2 class="ms-3">Find A Doctor</h2>
+            <div class="row align-items-center justify-content-around">
+                <div class="col-12 col-xl-7">
+                    <input type="text" placeholder="Name" class="my-inp">
+                    <input type="text" placeholder="Speciality" class="my-inp">
+                </div>
+                <div class="col-12 col-xl-2">
+                    <div style="font-size: 20px; font-weight: 400;">Available &emsp;<i
+                            class="fa-solid fa-toggle-on fa-xl" style="color: #007E85;"></i></div>
+                </div>
+                <div class="col-12 col-xl-2">
+                    <button class="mybtn8" style="width: 150px;">Search</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-8">
+            
+            <p style="color: #007E85; font-size: 36px; font-weight: 700;">Services we provide </p>
+            <p style="color: #555555; font-size: 20px; font-weight: 400; width: 50%; margin: auto;">Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero accumsan. </p>
+        </div>
+
+
+        <div class="row mt-1 align-items-center p-5">
+            <div class="col-12 col-sm-6 col-lg-4 my-4">
+                <div class="card p-3 rounded-4">
+                    <img src="./Images/Card/card1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="mycard-title">Dental treatments</h5>
+                        <p class="mycard-txt">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc
+                            lacus vel facilisis volutpat est velitolm.</p>
+                        <a href="#" class="learn-m">Learn More  ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 my-4">
+                <div class="card p-3 rounded-4">
+                    <img src="./Images/Card/card2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="mycard-title">Bones treatments</h5>
+                        <p class="mycard-txt">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc
+                            lacus vel facilisis volutpat est velitolm.</p>
+                        <a href="#" class="learn-m">Learn More  ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 my-4">
+                <div class="card p-3 rounded-4">
+                    <img src="./Images/Card/card3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="mycard-title">Diagnosis</h5>
+                        <p class="mycard-txt">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc
+                            lacus vel facilisis volutpat est velitolm.</p>
+                        <a href="#" class="learn-m">Learn More  ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 my-4">
+                <div class="card p-3 rounded-4">
+                    <img src="./Images/Card/card4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="mycard-title">Cardiology</h5>
+                        <p class="mycard-txt">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc
+                            lacus vel facilisis volutpat est velitolm.</p>
+                        <a href="#" class="learn-m">Learn More  ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 my-4">
+                <div class="card p-3 rounded-4">
+                    <img src="./Images/Card/card5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="mycard-title">Surgery</h5>
+                        <p class="mycard-txt">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc
+                            lacus vel facilisis volutpat est velitolm.</p>
+                        <a href="#" class="learn-m">Learn More  ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 my-4">
+                <div class="card p-3 rounded-4">
+                    <img src="./Images/Card/card6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="mycard-title">Eye care</h5>
+                        <p class="mycard-txt">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc
+                            lacus vel facilisis volutpat est velitolm.</p>
+                        <a href="#" class="learn-m">Learn More  ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="text-center">
+        <h3>Subscribe to our newsletter</h3>
+        <div>
+            <span><input class="myinput2" type="text" placeholder="Enter your email"></span>
+            <span><button class="mybtn4">Subscribe</button></span>
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="row align-items-flex-start justify-content-center">
+            <div class="col-12 col-xl-3">
+                <img src="./Images/Header/Frame 2.png" alt="">
+                <div style="margin-top: 20px;">
+                    Copyright © 2022 BRIX Templates <br class="none-1">| All Rights Reserved
+                </div><br>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-2">
+                <div style="font-size: 20px; margin-bottom: 30px; "><b>Product</b></div>
+                <div class="text-footer">Features</div>
+                <div class="text-footer">Pricing</div>
+                <div class="text-footer">Case studies</div>
+                <div class="text-footer">Reviews</div>
+                <div class="text-footer">Updates</div><br>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-2">
+                <div style="font-size: 20px; margin-bottom: 30px; "><b>Company</b></div>
+                <div class="text-footer">About</div>
+                <div class="text-footer">Contact Us</div>
+                <div class="text-footer">Careers</div>
+                <div class="text-footer">Culture</div>
+                <div class="text-footer">Blog</div><br>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-2">
+                <div style="font-size: 20px; margin-bottom: 30px; "><b>Getting started</b></div>
+                <div class="text-footer">Help center</div>
+                <div class="text-footer">Pricing</div>
+                <div class="text-footer">Server status</div>
+                <div class="text-footer">Report a bug</div>
+                <div class="text-footer">Chat support</div><br>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-2">
+                <div style="font-size: 20px; margin-bottom: 30px; "><b>Follow Us</b></div>
+                <div class="text-footer"><i class="fa-brands fa-facebook fa-lg"></i>&emsp;Facebook</div>
+                <div class="text-footer"><i class="fa-brands fa-x-twitter fa-lg"></i>&emsp;Twitter</div>
+                <div class="text-footer"><i class="fa-brands fa-instagram fa-lg"></i>&emsp;Instagram</div>
+                <div class="text-footer"><i class="fa-brands fa-linkedin fa-lg"></i>&emsp;LinkedIn</div>
+                <div class="text-footer"><i class="fa-brands fa-youtube fa-lg"></i>&emsp;YouTube</div><br>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function home() {
+            window.open("index.html", "_self");
+        }
+        function services() {
+            window.open("services.html", "_self");
+        }
+        function Contact() {
+            window.open("contact-us.html", "_self");
+        }
+    </script>
+
+</body>
+
+</html>

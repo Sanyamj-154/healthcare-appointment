@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Lato&family=Lexend+Tera&display=swap"
+        rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/d71e3987f2.js" crossorigin="anonymous"></script>
+    <title>Figma Design</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav>
+            <div class="row myrow align-items-baseline justify-content-between ">
+                <div class="col-3 col-xl-2 none-1 dis"><img src="./Images/Header/Name.png" alt=""
+                        style="margin-left: 10px;"></div>
+                <div class="col-1 col-xl-3 none0 none-2"><img src="./Images/Header/Logo.png" alt=""></div>
+                <div class="col-10 col-xl-6 none-2">
+                    <div class="row text-center">
+                        <div class="col txt" onclick="home()">Home</div>
+                        <div class="col txt" onclick="services()">Services</div>
+                        <div class="col txt active" onclick="Contact()">Contact Us</div>
+                        <div class="col txt">Help</div>
+                        <div class="col txt">Blogs</div>
+                    </div>
+                </div>
+                <div class="col-xl-3 none-1">
+                    <button type="button" class="mybtn2 btn btn" onclick="openTab">Sign Up</button>
+                    <button type="button" class="mybtn1 btn btn">Log In</button>
+                </div>
+                <div class="col-1 none myicon">
+                    <a href="#"><i class="fa-solid fa-user-large fa-lg " style="color: #007E85;"></i></a>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+        <div style="margin-top: 30px;">
+            <img src="./Images/Header/Background img.png" alt="" height="100%" width="100%">
+        </div>
+
+    <div class="container">
+
+    
+
+        <div class="text-center" style="margin-top: 50px;">
+            <h6>Get In Touch</h6>
+            <h1>Contact Us</h1>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+            <div class=".container-fluid text-start " style="margin-top: 50px;">
+                <div class="row align-items-start justify-content-center ">
+                    <div class="col-10 col-sm-6">
+                        <p class="int-txt">First Name</p>
+                        <input class="myinput" type="text" placeholder="Enter your first name">
+                    </div>
+                    <div class="col-10 col-sm-6 my-col">
+                        <p class="int-txt">Last Name</p>
+                        <input class="myinput" type="text" placeholder="Enter your last name">
+                    </div>
+                </div>
+                <div class="row align-items-start justify-content-center " style="margin-top: 20px;">
+                    <div class="col-10 col-sm-6">
+                        <p class="int-txt">Email</p>
+                        <input class="myinput" type="text" placeholder="Enter your email">
+                    </div>
+                    <div class="col-10 col-sm-6 my-col">
+                        <p class="int-txt">Phone Number</p>
+                        <input class="myinput" type="text" placeholder="Enter yourphone number">
+                    </div>
+                </div>
+                <div class="row align-items-start justify-content-center " style="margin-top: 20px;">
+                    <div class="col-12">
+                        <p class="int-txt">Choose a topic</p>
+                        <select class="mydrop" name="" id="">
+                            <option value="">Select One...</option>
+                            <option value="">Select One...</option>
+                            <option value="">Select One...</option>
+                            <option value="">Select One...</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row align-items-start justify-content-center " style="margin-top: 20px;">
+                    <div class="col-12">
+                        <p class="int-txt">Messagec</p>
+                        <textarea id="" name="">Type Your Message...</textarea>
+                    </div>
+                </div>
+                <div class="row align-items-start justify-content-center " style="margin-top: 20px;">
+                    <div class="col-12">
+                        <label for=""><input type="radio" name="" value=""/>&emsp; I accept the terms</label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="mybtn3">Submit</button>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="text-center">
+            <h3>Subscribe to our newsletter</h3>
+            <div>
+                <span><input class="myinput2" type="text" placeholder="Enter your email"></span>
+                <span><button class="mybtn4">Subscribe</button></span>
+            </div>
+        </div>
+    </div>
+        <footer class="container-fluid">
+            <div class="row align-items-flex-start justify-content-center">
+                <div class="col-12 col-xl-3">
+                  <img src="./Images/Header/Frame 2.png" alt="">
+                  <div style="margin-top: 20px;">
+                    Copyright © 2022 BRIX Templates <br class="none-1">| All Rights Reserved 
+                  </div><br>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2">
+                    <div style="font-size: 20px; margin-bottom: 30px; " ><b>Product</b></div>
+                    <div class="text-footer">Features</div>
+                    <div class="text-footer">Pricing</div>
+                    <div class="text-footer">Case studies</div>
+                    <div class="text-footer">Reviews</div>
+                    <div class="text-footer">Updates</div><br>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2">
+                    <div style="font-size: 20px; margin-bottom: 30px; " ><b>Company</b></div>
+                    <div class="text-footer">About</div>
+                    <div class="text-footer">Contact Us</div>
+                    <div class="text-footer">Careers</div>
+                    <div class="text-footer">Culture</div>
+                    <div class="text-footer">Blog</div><br>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2">
+                    <div style="font-size: 20px; margin-bottom: 30px; " ><b>Getting started</b></div>
+                    <div class="text-footer">Help center</div>
+                    <div class="text-footer">Pricing</div>
+                    <div class="text-footer">Server status</div>
+                    <div class="text-footer">Report a bug</div>
+                    <div class="text-footer">Chat support</div><br>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2">
+                    <div style="font-size: 20px; margin-bottom: 30px; " ><b>Follow Us</b></div>
+                    <div class="text-footer"><i class="fa-brands fa-facebook fa-lg"></i>&emsp;Facebook</div>
+                    <div class="text-footer"><i class="fa-brands fa-x-twitter fa-lg"></i>&emsp;Twitter</div>
+                    <div class="text-footer"><i class="fa-brands fa-instagram fa-lg"></i>&emsp;Instagram</div>
+                    <div class="text-footer"><i class="fa-brands fa-linkedin fa-lg"></i>&emsp;LinkedIn</div>
+                    <div class="text-footer"><i class="fa-brands fa-youtube fa-lg"></i>&emsp;YouTube</div><br>
+                </div>
+              </div>
+        </footer>
+
+
+<script>
+function home() {
+  window.open("index.html", "_self");
+}
+function services() {
+  window.open("services.html", "_self");
+}
+function Contact() {
+  window.open("contact-us.html", "_self");
+}
+</script>
+</body>
+
+</html>
